@@ -86,10 +86,10 @@ int main(void) {
 - **`main`:** Inicia o processo de análise sintática chamando `yyparse`, a função gerada pelo Bison.
 
 ## Como Executar
- -bison -d calc.y
- -flex calc.l
- -gcc calc.tab.c lex.yy.c -o calc -lfl
- -./calc
+ - bison -d calc.y
+ - flex calc.l
+ - gcc calc.tab.c lex.yy.c -o calc -lfl
+ - ./calc
 ## Exemplo de Uso
 
 ```
